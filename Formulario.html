@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <section class="conta">
+        <form action="" method="get">
+    <fieldset>
+        <legend>Datos Basicos</legend>
+        <label for = "a">Nombre</label><br>
+        <input type ="text" name="nombre" class="cajita" placeholder="Nombre" required><br>
+        <label for = "a">Descripcion</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <imput type = "file" name ="a" id= "a">
+            <label for = "a">Foto</label><br>
+            <input type="file" name="a" id="a"> <br>
+            <input type="checkbox" name = "a" id = "a1">Añadir contador de vistas<br>
+        </fieldset>
+
+            <fieldset>
+            <legend>Datos Económicos</legend>
+            <label for="a">Precio</label>
+        <input type="number" name = "Precio"  class = "cajita"required> € 
+                
+        <label for="a"> /-Impuesto</label>
+        <select name = "Impuesto" id="Impuesto" class="cajita">
+            <option value="a" >--</option>
+            <option value="1" >4%</option>
+            <option value="1" >7%</option>
+            <option value="1" >16%</option>
+            <option value="1" >25%</option>
+        </select> 
+        </select><br>
+
+            <label for="a">Promoción</label><br>
+        <input type="radio" name = "Ninguno">Ninguno<br>
+        <input type="radio" name = "Transporte">Transporte gratuito<br>
+        <input type="radio" name = "Descuento">Descuento 5%<br>
+        
+        </fieldset>        
+        </form>
+    </section>
+</body>
+</html>
